@@ -95,7 +95,7 @@ const CountrySelect = ({
                                     }}
                                     className='country-select-item'
                                 >
-                                <Check
+                                    <Check
                                         className={cn(
                                             'mr-2 h-4 w-4 text-yellow-500',
                                             value === country.value ? 'opacity-100' : 'opacity-0'
