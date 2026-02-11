@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📈 Signallist – Stock Market App
 
-## Getting Started
+**Signallist** is a full-stack stock market web application that lets users track real-time stock prices, receive personalized alerts, and explore detailed company insights. This project is built using **Next.js**, **React**, **TypeScript**, and styled with CSS, integrating external APIs to fetch live financial market data.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💡 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🚀 **Real-Time Stock Tracking** – Get up-to-date price quotes for selected stocks.
+- 🔔 **Personalized Alerts** – Set custom stock price alerts and get notified.
+- 📊 **Company Insights** – View detailed company information and market sentiment.
+- 🔎 **Search & Explore** – Easily search for stock symbols and view historical trends.
+- 📱 **Responsive UI** – Works smoothly on both desktops and mobile devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Tech Stack
 
-## Learn More
+**Frontend**
+- 🔹 Next.js (React Framework)
+- 🔹 TypeScript
+- 🔹 CSS
 
-To learn more about Next.js, take a look at the following resources:
+**Backend / APIs**
+- 💠 External Stock APIs (fetch live price and company data) from Trading View
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Search for any stock symbol (e.g., AAPL, TSLA, AMZN)
+- View real-time price updates
+- Set alerts to be notified when a stock reaches a target price
+- Explore detailed company information
 
-## Deploy on Vercel
+## 🧪 What I Learned
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Building a real-world stock tracking application  
+- Integrating external APIs in Next.js  
+- Working with React components and TypeScript  
+- Deploying modern web apps to production  
